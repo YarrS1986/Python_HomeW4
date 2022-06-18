@@ -2,15 +2,6 @@
 # Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.
 import random
 
-
-# def sequece_of_num(num_list):
-#     new_list = []
-#     for i in range(len(num_list)):
-#         if i not in new_list:
-#                 new_list.append(i)
-#
-#     return new_list
-
 list_len = int(input("Введи длину списка = "))
 
 my_list = []
