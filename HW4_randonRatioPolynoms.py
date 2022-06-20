@@ -26,7 +26,7 @@ for i in range(N, -1, -1):
 polynom_str = " + ".join(polynom_list)
 print(f'при n={N} ==> {polynom_str} = 0')
 
-data = open('palyndrom.txt', 'w')
+data = open('palynom1.txt', 'w')
 data.writelines(f'n={N} ==> {polynom_str} = 0')
 data.close()
 
